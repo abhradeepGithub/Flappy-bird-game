@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #70c5ce;
+  }
+  
+  #gameContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  canvas {
+    background: url('https://i.postimg.cc/XqdVLBQK/background.png') no-repeat;
+    background-size: cover;
+    display: block;
+    border: 2px solid #000;
+  }
+  
